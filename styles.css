@@ -1,0 +1,198 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header, section, footer {
+    padding: 20px;
+    background-color: #f2f2f2;
+    text-align: center;
+}
+
+header{ /*Fondo de todo*/
+    background: url(soporte.jpg);
+    height: 100vh; /*vh tamaño total*/
+    background-size: cover; /*Cuadrar la imagen*/
+    background-position: center;
+    }
+
+    .nombre-sitio span{ /*Color solo lo que quieras dependiendo la clase que tenga*/
+        color: green;
+    }
+    
+    a{
+        text-decoration: none;
+        color: black;
+    }
+    
+
+h1 {
+    margin: 0;
+    font-size: 36px;
+}
+
+h2 {
+    margin-top: 10px;
+    font-size: 24px;
+}
+
+h3 {
+    margin-top: 20px;
+    font-size: 24px;
+}
+
+.value ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.cta button {
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.cta button:hover {
+    background-color: #45a049;
+}
+
+.contact input,
+.contact button {
+    margin-top: 10px;
+    padding: 10px;
+    width: calc(50% - 10px);
+    display: inline-block;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.contact input:focus,
+.contact button:focus {
+    outline: none;
+    border-color: #4CAF50;
+}
+
+.contact button {
+    width: calc(50% - 10px);
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.contact button:hover {
+    background-color: #45a049;
+}
+
+blockquote {
+    margin: 20px 0;
+}
+
+blockquote p {
+    font-style: italic;
+}
+
+blockquote cite {
+    font-weight: bold;
+}
+
+footer {
+    font-size: 14px;
+    color: #666;
+}
+
+.img{
+    max-width: 100%;
+    display: block;
+}
+
+/* Añade esta regla para centrar la imagen */
+blockquote img {
+    display: block;
+    margin: 0 auto; /* Establece margen automático para centrar la imagen horizontalmente */
+}
+
+
+/*Por que trabar conmigo*/
+
+.contenedor-porque{
+    display: flex;
+    text-align: center;
+    justify-content: center; /*Centrar objetos (Center) space-around centrar y separar*/
+}
+
+.contenedor-porque h4{
+    margin: 0; /*Imagenes mas pegadas a la letra*/
+    font-size: 20px; /*Tamaño de letra*/
+}
+
+.contenedor-porque p{
+    font-size: 15px;
+    line-height: 26px; /*Separador de lineas*/
+}
+
+.porquesingular{
+    width: 30%; /*Ancho*/
+}
+
+/*Blog*/
+
+#blog{
+    background: #f9fafc;
+    padding-top: 50px;
+    padding-bottom: 50px;    
+}
+
+.contenedor-publicaciones {
+    display: flex; /*Dejar una publicacion al lado de la otra*/
+    justify-content: space-around;
+}
+
+.Publicacion {
+    width: 20%; /*Tamaño en general*/
+    box-shadow: 5px 5px 10px #ccc; /*Sombra dentro de la pagina*/
+    padding-bottom: 20px;
+}
+
+.contenedor-publicaciones p{
+    font-size: 16px;
+    line-height: 26px;
+}
+
+
+.contenedor-publicaciones img{
+    width: 100%; /*Ajustar imagen*/
+}
+
+#blog h4{
+    font-size: 23px;
+    margin: 0;
+    padding: 20px 20px 20px 20px;
+}
+
+#blog p{
+    color: #5a6169;
+    line-height: 24px;
+    font-size: 16px; 
+    padding: 10px 20px 20px 20px; /*Tamaño de parrafo*/
+    margin: 0%;
+}
+
+#blog a{
+    display: inline-block;
+    margin-left: 20px;
+}
+ 
+
+#whatsapp a{
+    background: none; /*Quitar color*/
+    position: fixed; /*Posicion Fija*/
+    top: 85%; /*Altura solo con position: fixer*/
+    right: 1%; /*Izquierda*/
+}
+
